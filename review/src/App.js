@@ -26,13 +26,6 @@ export default class App extends Component{
     event.preventDefault();
   }
 
-  reqEmoji = () =>{
-    if(this.score > 0){
-      return(<p>Good</p>);
-    }
-    return(<p>Bad</p>)
-  }
-
   render(){
     let g;
     if(this.state.score > 0){
