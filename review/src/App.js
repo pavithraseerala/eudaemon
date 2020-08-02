@@ -35,7 +35,7 @@ export default class App extends Component{
       g=<p style={{fontSize:"48px"}}>&#128577;</p>;
     }
     return(
-      <div>
+      <div style={{textAlign:"center"}}>
         <h1>Review System</h1>
         <form onSubmit={this.handleSubmit}>
           <textarea rows="20" cols="50" placeholder="Enter text here" value={this.state.value} onChange={this.handleChange} required/>
